@@ -1,6 +1,6 @@
 {
   "name": "znode-bp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Custom NodeJs Boilerplate with MongoDB Database",
   "main": "index.js",
   "bin": "bin/setupNode.js",
