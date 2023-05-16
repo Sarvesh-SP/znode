@@ -1,5 +1,5 @@
 {
-  "name": "znode",
+  "name": "znode-bp",
   "version": "1.0.0",
   "description": "Custom NodeJs Boilerplate with MongoDB Database",
   "main": "index.js",
