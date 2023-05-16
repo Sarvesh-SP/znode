@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Custom NodeJs Boilerplate with MongoDB Database",
   "main": "index.js",
+  "bin": "bin/setupNode.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sarvesh-SP/znode.git"
@@ -19,7 +20,8 @@
   "scripts": {
     "start": "pm2 start ecosystem.config.json --no-daemon",
     "dev": "cross-env NODE_ENV=development nodemon src/index.js",
-    "test": "jest -i --colors --verbose --detectOpenHandles",
+    "test": "echo \"No test specified\"",
+    "test:start": "jest -i --colors --verbose --detectOpenHandles",
     "test:watch": "jest -i --watchAll",
     "coverage": "jest -i --coverage",
     "coverage:coveralls": "jest -i --coverage --coverageReporters=text-lcov | coveralls",
