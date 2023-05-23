@@ -18,15 +18,6 @@ async function runCmd(command) {
   }
 }
 
-async function hasYarn() {
-  try {
-    await execSync('yarnpkg --version', { stdio: 'ignore' });
-    return true;
-  } catch {
-    return false;
-  }
-}
-
 // Validate arguments
 if (process.argv.length < 3) {
   console.log('Please specify the target project directory.');
